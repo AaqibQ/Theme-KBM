@@ -1,0 +1,1393 @@
+/* fonts import start */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Light.eot");
+    src: url("../fonts/gilroy/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy/Gilroy-Light.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Light.woff") format("woff"), url("../fonts/gilroy/Gilroy-Light.ttf") format("truetype"), url("../fonts/gilroy/Gilroy-Light.svg#Gilroy-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Medium.eot");
+    src: url("../fonts/gilroy/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy/Gilroy-Medium.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Medium.woff") format("woff"), url("../fonts/gilroy/Gilroy-Medium.ttf") format("truetype"), url("../fonts/gilroy/Gilroy-Medium.svg#Gilroy-Medium") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Regular.eot");
+    src: url("../fonts/gilroy/Gilroy-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy/Gilroy-Regular.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Regular.woff") format("woff"), url("../fonts/gilroy/Gilroy-Regular.ttf") format("truetype"), url("../fonts/gilroy/Gilroy-Regular.svg#Gilroy-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Bold.eot");
+    src: url("../fonts/gilroy/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy/Gilroy-Bold.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Bold.woff") format("woff"), url("../fonts/gilroy/Gilroy-Bold.ttf") format("truetype"), url("../fonts/gilroy/Gilroy-Bold.svg#Gilroy-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/gilroy/Gilroy-Heavy.eot");
+    src: url("../fonts/gilroy/Gilroy-Heavy.eot?#iefix") format("embedded-opentype"), url("../fonts/gilroy/Gilroy-Heavy.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Heavy.woff") format("woff"), url("../fonts/gilroy/Gilroy-Heavy.ttf") format("truetype"), url("../fonts/gilroy/Gilroy-Heavy.svg#Gilroy-Heavy") format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap
+}
+
+/* fonts import end */
+
+/* global styling start */
+html{
+    overflow-x: hidden !important;
+}
+body {
+    font-family: "Gilroy";
+    overflow-x: hidden !important;
+}
+
+
+/* banner */
+nav#navScroll {
+    border-bottom: 1px solid #E1E1E1;
+    opacity: 0.75;
+    background: #FFF;
+    padding: 15px 0px;
+}
+.navbar-nav .nav-link{
+    color: #323232;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0 10px;
+}
+.navbar-nav .current-menu-item a{
+    color: #6E927E;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.navbar-nav li:hover a {
+	color: #6E927E;
+}
+ul.dropdown-menu li a.dropdown-item{
+    color: #323232;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+nav.navbar {
+    border-bottom: 1px solid #E1E1E1;
+    opacity: 0.75;
+    background: #FFF;
+    padding: 15px 0px;
+}
+/* banner */
+
+/* home carousel start */
+.homebanner .carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    top: 40%;
+    left: 0;
+    margin: auto;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.homebanner .carousel-indicators {
+    position: absolute;
+    right: auto;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.homebanner .carousel-social-icons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.homebanner .carousel-social-icons img:hover {
+    filter: invert(1);
+}
+.homebanner .carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+    background-color: #FCFCFC !important;
+}
+.homebanner .carousel-indicators button.active {
+    background-color: #344D3F !important;
+}
+.homebanner .carousel-caption h2 {
+    color: #6E927E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 3.3px;
+    text-transform: uppercase;
+}
+.homebanner .carousel-caption h3 {
+    color: #000;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.homebanner .carousel-caption p {
+    color: #323232;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+	width:50%;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+.homebanner .carousel-social-icons ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+a.btn.banner_btn_custom {
+    border-radius: 22px;
+    background: #1A201D;
+    color: #fff;
+    padding: 15px 40px;
+    font-weight: bold;
+}
+a.btn.banner_btn_custom:hover {    
+    background: #fff;
+    color: #1A201D;
+}
+/* home carousel end */
+
+/* wedding photography section start */
+section.wedding-photography {
+    padding: 100px 0px;
+    position: relative;
+}
+section.wedding-photography h3 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.53px;
+}
+section.wedding-photography p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+section.wedding-photography .btncustomoutline {
+    background: transparent;
+    padding: 15px 40px;
+    border-radius: 22px;
+    border: 2px solid #6E927E;
+    color: #6E927E;
+    font-weight: bold;
+}
+.btncustomoutline:hover {
+    background: #6E927E !important;
+    color: #fff !important;
+}
+section.wedding-photography .caption.header-text h6 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.wedding-photography p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.seconeabsimg {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    z-index: -1;
+}
+.wedding-photography-abs {
+    transform: translate(-112px, 0px);
+}
+/* wedding photography section end */
+
+/* what we do section */
+.what-we-do .content_section h6 {
+    color: #323232;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.what-we-do .content_section h3 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.what-we-do .content_section p {
+    color: #565656;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+
+.card_footer_custom {
+    background: #6E927E;
+    color: #fff;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.card_footer_custom a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-box-hover-with-image:hover .card_footer_custom {
+    background: #C8E9D7;
+}
+
+.card-box-hover-with-image:hover .card_footer_custom a {
+    color: #6E927E;
+}
+
+.what-we-do-carousel .owl-nav{
+    display: block !important;
+}
+.what-we-do-carousel .owl-nav button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.what-we-do-carousel .owl-next {
+    right: -50px;
+}
+
+.what-we-do-carousel .owl-prev {
+    left: -50px;
+}
+
+.what-we-do-carousel .owl-nav button i {
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* what we do section */
+
+/* capture best moments start */
+section.best-moments {
+    padding: 150px 0px;
+    position: relative;
+}
+section.best-moments h3 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.53px;
+}
+section.best-moments p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+section.best-moments .btncustomoutline {
+    background: transparent;
+    padding: 15px 40px;
+    border-radius: 22px;
+    border: 2px solid #6E927E;
+    color: #6E927E;
+    font-weight: bold;
+}
+section.best-moments .caption.header-text h6 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.best-moments p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.seconeabsimg2 {
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: -1;
+    width: 100%;
+    opacity: 0.5;
+}
+/* capture best moments end */
+
+/* trusted clients start */
+section.trusted-clients img {
+    float: right;
+}
+section.trusted-clients {
+    padding: 100px 0 50px 0px;
+    position: relative;
+}
+section.trusted-clients h3 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.53px;
+}
+section.trusted-clients p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+section.trusted-clients .btncustomoutline {
+    background: transparent;
+    padding: 15px 40px;
+    border-radius: 22px;
+    border: 2px solid #6E927E;
+    color: #6E927E;
+    font-weight: bold;
+}
+section.trusted-clients .caption.header-text h6 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.trusted-clients p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+section.trusted-clients .counter-box h2 {
+    color: #6E927E;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 44.53px;
+}
+section.trusted-clients .counter-box p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin: 10px 0;
+}
+section.trusted-clients .counter-box {
+    margin-bottom: 50px;
+}
+/* trusted clients end */
+
+/* latest work */
+section.our-latest-work {
+    padding: 100px 0px;
+}
+section.our-latest-work .content h2 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+section.our-latest-work .content p {
+    color: #565656;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
+/* latest work */
+
+/* our locations start */
+.our-locations .our-locations-conent {
+    margin: 30px 0;
+    color: #565656;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+.our-locations ul.our-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.our-locations ul.our-social-links img:hover {
+	filter:invert(1);
+}
+.our-locations ul.our-social-links li {
+    margin: 10px 30px 0 0;
+}
+.our-locations .social-links-heading {
+    color: #101010;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+section.our-locations .content {
+    margin-bottom: 100px;
+}
+section.our-locations .content h2 {
+    text-align: center;
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44.53px;
+}
+section.our-locations .content p {
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #565656;
+    text-align: center;
+}
+section.our-locations .btncustomoutline {
+    background: transparent;
+    padding: 15px 40px;
+    border-radius: 22px;
+    border: 2px solid #6E927E;
+    color: #6E927E;
+    font-weight: bold;
+}
+.location-image-abs {
+    transform: translate(0px, 0px);
+}
+.location-image-abs-2 {
+    transform: translate(0px, 0px);
+}
+/* our locations end */
+
+/* contact us section home page */
+.contact-us-with-bg {
+    background: url(../img/contactus-bg.png);
+    padding: 50px 0;
+    margin: 100px 0 100px 0;
+    background-size: cover;
+}
+.contact-us-with-bg h2 {
+    color: #344D3F;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contact-us-with-bg p {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.contact-us-with-bg input {
+    border-radius: 12px;
+    opacity: 0.8;
+    background: #FFF;
+    margin: 0 0 20px 0;
+    padding: 20px;
+}
+.contact-us-with-bg button {
+    border-radius: 12px;
+    background: #344D3F;
+    border: none;
+    width: 100%;
+    padding: 24px 15px;
+    color: #FCFCFC;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}
+.contact-us-with-bg button:hover {
+	 background: #FCFCFC;
+	color: #344D3F;
+}
+/* contact us section home page */
+
+/* footer */
+footer {
+    background: #fff;
+    border-top: 1px solid #CCC;
+    background: #FCFCFC;
+    box-shadow: 0px 18px 33px 0px rgba(0, 0, 0, 0.12);
+}
+footer .footer-top{
+    padding: 60px 0 5px;
+}
+.download_section_footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.download_section_footer ul li {
+    margin: 0 20px 0 0px;
+}
+p.first_column_text {
+    color: #323232;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px 0;
+}
+footer .footer-top h5 {color: #323232;font-size: 18px;font-style: normal;font-weight: 500;line-height: normal;margin-top:20px;}
+.first_column_list li a {
+    color: #FCFCFC;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.first_column_list li {
+    margin: 0px 0px 20px 0px;
+}
+.footer_newsletter button#button-addon2 {
+    background: #fff;
+    border: none;
+    color: #323232;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.footer_newsletter .input-group input {
+    border-radius: 12px;
+    padding: 15px;
+}
+.footer_newsletter .input-group {
+    border-radius: 12px;
+}
+.footer_newsletter ul {
+    padding: 0;
+    list-style: none;
+}
+.footer_newsletter ul li {
+    margin: 0 20px 0 0;
+}
+.footer_newsletter ul.d-flex li img:hover {
+	filter:invert(1);
+}
+
+.download_section_footer a {
+    text-decoration: none;
+    color: #323232;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14.06px;
+}
+.menu-privacy-menu-container li:hover a, .menu-quick-links-container li:hover a{
+	font-weight: 600 !important;
+}
+ul.list-unstyled.first_column_list a {
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+ul.list-unstyled.first_column_list {
+    column-count: 2;
+}
+ul.footer-info-list li {
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.75px;
+    margin: 10px 0;
+}
+/* footer */
+
+/* about us page */
+.about-banner {
+    padding: 100px 0;
+    background: url(../img/aboutusbanner.png);
+    background-size: cover;
+    text-align: center;
+}
+.about-banner .contentbox {
+    position: relative;
+    bottom: -60px;
+}
+.about-banner .contentbox h6 {
+    color: #6E927E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.about-banner .contentbox h2 {
+    color: #000;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.about-banner .contentbox p {
+    color: #323232;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.intorduction-section-text h6 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.intorduction-section-text p {
+    color: #323232;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.98px;
+}
+section.specialties-section {
+    padding: 50px 0 100px 0px;
+    background: #F2F2F2;
+}
+section.specialties-section .section-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section.specialties-section .section-content h6 {
+    color: #323232;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+section.specialties-section .section-content h2 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.specialties-box {
+    position: relative;
+}
+
+p.specialties-abs-text {
+    position: absolute;
+    z-index: 999;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: #FCFCFC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+section.affiliation-section {
+    padding: 100px 0;
+}
+
+.specialties-slider .owl-nav{
+    display: block !important;
+}
+.specialties-slider .owl-nav button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.specialties-slider .owl-next {
+    right: -50px;
+}
+
+.specialties-slider .owl-prev {
+    left: -50px;
+}
+
+.specialties-slider .owl-nav button i {
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.affiliation-section .section-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.affiliation-section .section-content h6 {
+    color: #323232;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.affiliation-section .section-content h2 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.affiliation-box {
+    position: relative;
+}
+
+p.affiliation-abs-text {
+    position: absolute;
+    z-index: 999;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: #FCFCFC;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.affiliation-slider .owl-nav{
+    display: block !important;
+}
+.affiliation-slider .owl-nav button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.affiliation-slider .owl-next {
+    right: -50px;
+}
+
+.affiliation-slider .owl-prev {
+    left: -50px;
+}
+
+.affiliation-slider .owl-nav button i {
+    font-size: 25px;
+    text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+section.intorduction-section {
+    padding: 100px 0;
+}
+
+/* about us page */
+
+/* contact us page */
+section.contact-us-page-section {
+    padding: 50px 0px;
+}
+.contact-page-form-section h2 {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contact-page-form-section input {
+    border-radius: 12px;
+    opacity: 0.8;
+    background: #F4F4F4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-page-form-section textarea {
+    border-radius: 12px;
+    opacity: 0.8;
+    background: #F4F4F4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.contact-page-form-section .btn {
+    border-radius: 12px;
+    opacity: 0.8;
+    background: #6E927E;
+    border: none;
+    width: 100%;
+    padding: 10px;
+}
+/* contact us page */
+
+/* services page */
+section.mariage-counseling {
+    padding: 50px 0;
+}
+section.mariage-counseling .services-section-heading {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.mariage-counseling .services-section-text {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section.mariage-counseling .services-section-btn {
+    border-radius: 22px;
+    border: 2px solid #6E927E;
+    color: #6E927E;
+    padding: 10px 40px;
+}
+.services-section-btn:hover {
+	background: #6E927E;
+	color: #ffffff !important;
+}
+.content-section-latest-book h4 {
+    color: #323232;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+section.latestbook{
+    margin-bottom: 100px;
+}
+section.latestbook h2 {
+    color: #6E927E;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.latestbook a.btn.services-section-btn {
+    border-radius: 22px;
+    border: 2px solid #6E927E;
+    color: #6E927E;
+    padding: 10px 40px;
+}
+/* services page */
+
+/*products page*/
+
+section.products-section {
+    padding: 100px 0px;
+}
+section.products-section .card {
+    border: none;
+    position:relative;
+}
+section.products-section .card .card-body {
+    border-radius: 0 0px 50px 50px;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 12px 0px rgba(17, 17, 17, 0.12);
+}
+section.products-section .card img {
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px 4px 12px 0px rgba(17, 17, 17, 0.12);
+}
+section.products-section .card .card-title {
+    color: #323232;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.products-section .card .card-price {
+    display: flex;
+    padding: 0px 0 10px 0;
+}
+section.products-section .card-body {
+    padding: 30px 40px;
+}
+section.products-section .card .card-price .regular-price {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 10px 0 0;
+}
+section.products-section .card .card-price .sale-price {
+    color: #6E927E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.products-section .card .card-body .btn {
+    width: 100%;
+    border-radius: 20px;
+    background: #6E927E;
+    border: none;
+    padding: 12px;
+    color: #FCFCFC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+section.products-section .card span.sale-ribbon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 20px;
+    background: rgba(61, 61, 61, 0.58);
+    padding: 5px 20px;
+    color: #FCFCFC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/*products page*/
+
+/*product single page*/
+section.products-single-section {
+    padding: 100px 0px;
+}
+.products-single-section img {
+    margin:0 auto;
+    display:table;
+}
+.single-page-product-data small {
+    color: #323232;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.single-page-product-data h2 {
+    color: #6E927E;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.single-page-product-data p {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.single-page-product-data .product-price {
+    margin-bottom: 20px;
+}
+.single-page-product-data .btn{
+    width: 50%;
+    border-radius: 20px;
+    background: #6E927E;
+    border: none;
+    padding: 14px;
+    color: #FCFCFC;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.single-page-product-data span.regular-price {
+    color: #757575;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.single-page-product-data span.sale-price {
+    color: #6E927E;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.single-page-product-data .post_category {
+    color: #303030;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.single-page-product-data .post_category a {
+    color: #6E927E;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/*product single page*/
+
+
+.location-image-abs {
+    float: right;
+    box-shadow: -20px 20px 1px 1px #344d3f;
+}
+.location-image-abs-2 {
+    float: none;
+    box-shadow: 20px 20px 1px 1px #344d3f;
+}
+.contact-sec-phone-number {
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contact-sec-phone-number:hover {
+    color: #344D3F;
+}
+.tss-wrapper .tss-carousel3 .item-content-wrapper {border-radius:10px;}
+.rt-container-fluid.tss-wrapper {max-width:60%;}
+.cart_totals .wc-proceed-to-checkout .button {
+	border-radius: 12px;
+    opacity: 0.8;
+    background: #6E927E !important;
+    border: none;
+    width: 100%;
+    padding: 10px;
+
+}
+a.shipping-calculator-button {
+	color:#6E927E;
+}
+.product-name a{
+	color:#000;
+}
+.shop_table .actions button {
+    background: transparent !important;
+    padding: 15px 40px !important;
+    border-radius: 22px !important;
+    border: 2px solid #6E927E !important;
+    color: #6E927E !important;
+    font-weight: bold !important;
+}
+.woocommerce .woocommerce-checkout input, .woocommerce .woocommerce-checkout textarea {
+	border-radius: 12px;
+    opacity: 0.8;
+    background: #F4F4F4;
+    padding: 20px;
+    margin-bottom: 20px;
+	border: 1px solid #ced4da;
+}
+.select2-container--default .select2-selection--single {
+	border:0 !important;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+	background: #F4F4F4;
+	border: 1px solid #ced4da;
+	border-radius: 12px;
+}
+.woocommerce .col2-set {
+	margin-bottom:20px;
+}
+.woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+	border-radius: 12px;
+    opacity: 0.8;
+    background: #6E927E;
+    border: none;
+    padding: 10px;
+}
+/* media query */
+@media only screen and (max-width: 1299px) {
+    .wedding-photography-abs {
+        transform: translate(0px, 0px);
+    }
+    .location-image-abs {
+        transform: translate(0px, 0px);
+    }
+    .location-image-abs-2 {
+        transform: translate(0px, 0px);
+    }
+}
+@media only screen and (max-width: 991px) {
+    section.best-moments img {
+        margin: 0px auto 100px auto;
+        display: table;
+    }
+    section.trusted-clients img {
+        float: none;
+        margin: 0 auto;
+        display: table;
+    }
+    .location-image-abs {
+        margin-top: 50px;
+        float:none;
+        margin:50px auto;
+        display:table;
+        width: 100%;
+    }
+    .location-image-abs-2 {
+        margin-top: 50px;
+        float:none;
+        margin:50px auto;
+        display:table;
+        width: 100%;
+    }
+    .wedding-photography-abs {
+        margin-bottom: 50px;
+    }
+    section.trusted-clients {
+        padding: 0px 0 50px 0px;
+    }
+    .abs-text-services-sec {
+        display: none;
+    }
+    section.mariage-counseling {
+        text-align: center;
+    }
+    section.mariage-counseling img {
+        margin: 20px auto;
+    }
+    section.latestbook {
+        text-align: center;
+        margin-top: 100px;
+    }
+    section.latestbook h2 {
+        font-size: 38px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .homebanner .carousel-caption h3 {
+        font-size: 22px;
+    }
+    .homebanner .carousel-caption h2 {
+        font-size: 12px;
+    }
+    .homebanner .carousel-caption p {
+        color: #323232;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 50%;
+        margin: 10px auto;
+    }
+    .homebanner .carousel-caption {
+        position: absolute;
+        right: 0;
+        bottom: 0%;
+        top: 30%;
+        left: 0;
+        margin: auto;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+    a.btn.banner_btn_custom {
+        border-radius: 22px;
+        background: #1A201D;
+        color: #fff;
+        padding: 5px 30px;
+        font-weight: bold;
+        font-size: 10px;
+    }
+    .navbar-nav .nav-link {
+        margin: 0 0px;
+    }
+	.homebanner .carousel-caption p{
+		width:90%;
+	}
+	.rt-container-fluid.tss-wrapper {max-width:90%;}
+}
+@media only screen and (max-width: 575px) {
+    nav.navbar {
+        padding: 5px 0px;
+    }
+    .homebanner .carousel-caption {
+        top: 20%;
+    }
+    .homebanner .carousel-social-icons {
+        position: absolute;
+        right: -20px;
+        bottom: -20px;
+        left: auto;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+    .homebanner .carousel-indicators {
+        position: absolute;
+        right: auto;
+        bottom: -10px;
+        left: -20px;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+    section.wedding-photography .caption.header-text {
+        text-align: center;
+    }
+    
+    section.wedding-photography .main-button.scroll-to-section {
+        text-align: center;
+    }
+    .what-we-do .content_section {
+        text-align: center;
+    }
+    
+    .best-moments .caption.header-text {
+        text-align: center;
+    }
+    
+    .best-moments .main-button.scroll-to-section {
+        text-align: center;
+    }
+    .trusted-clients .caption.header-text {
+        text-align: center;
+    }
+    .trusted-clients .counter-box {
+        text-align: center;
+    }
+    section.our-latest-work img {
+        margin: 0 auto;
+        display: table;
+    }
+    section.our-locations {
+        text-align: center;
+    }
+    .our-locations ul.our-social-links {
+        margin: 0 auto 30px auto;
+        display: inline-flex;
+    }
+    footer {
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .carousel-item img {
+        height: 350px;
+        object-fit: cover;
+    }
+    .what-we-do .content_section h3 {
+        font-size: 28px;
+    }
+    .contact-us-with-bg h2 {
+        font-size: 32px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .homebanner .carousel-caption p {
+        width: 90%;
+    }
+    section.wedding-photography .caption.header-text h6{
+        font-size: 18px;
+    }
+    .what-we-do .content_section h3 {
+        font-size: 18px;
+    }
+    section.best-moments .caption.header-text h6 {
+        font-size: 18px;
+    }
+    section.trusted-clients .caption.header-text h6 {
+        font-size: 18px;
+    }
+    section.our-latest-work .content h2 {
+        font-size: 18px;
+    }
+    section.our-locations .content h2 {
+        text-align: center;
+        color: #6E927E;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 44.53px;
+    }
+    footer {
+        padding: 0 10px;
+    }
+}
+/* media query */
